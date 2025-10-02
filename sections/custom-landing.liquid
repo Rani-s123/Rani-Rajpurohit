@@ -1,0 +1,97 @@
+<header>
+  <div class="nav">
+    <p class="brandName">Tisso Vison</p>
+    <p class="brandDescription">Find the ideal gift for your loved ones.</p>
+    <button>
+      CHOOSE GIFT <img src="{{ 'icon-arrow.svg' | asset_url }}" alt="arrow" />
+    </button>
+  </div>
+  <div
+    class="bg-img"
+    style="background-image: url({{ 'bg-img.png' | asset_url }});"
+  ></div>
+  <div class="brandFunction">
+    <div class="words">
+      <div class="title">The Gift Guide</div>
+      <p>
+        Discover Joy: Your Ultimate Holiday Gift Destination. Explore our
+        curated selection and find the perfect gifts to delight your loved ones
+        this holiday season.
+      </p>
+      <p class="small-screen">
+        Discover Joy: Your Ultimate Holiday Gift Destination.
+      </p>
+      <button>
+        shop now <img src="{{ 'icon-arrow.svg' | asset_url }}" alt="arrow" />
+      </button>
+    </div>
+    <div class="images">
+      <img src="{{ 'img2.png' | asset_url }}" alt="bg pic" />
+    </div>
+  </div>
+  <div class="header-end">
+    <p>SUSTAINABLE, ETHICALLY MADE CLOTHES IN SIZES XXS TO 6XL</p>
+    <p class="small-screen">SUSTAINABLE, ETHICALLY MADE ACTIVEWEAR</p>
+  </div>
+</header>
+<section class="grid">
+  <div id="grid-Title">Tisso vison in the wild</div>
+  <div class="row"></div>
+</section>
+<div class="grey-bg"></div>
+<section class="product-details">
+  <div class="card">
+    <div class="top">
+      <!-- <div class="close">
+      <i class="fa-solid fa-xmark"></i>
+    </div>
+    <div class="top-card">
+      <img src="${product.images[0].src}" alt="${product.title}" />
+      <div class="top-right">
+        <span id="prod-title">${product.title}</span>
+        <span id="prod-price">${product.variants[0].price} €</span>
+        ${product.body_html}
+      </div>
+    </div>-->
+      <!-- <div class="middle-card">
+      <div class="colors">Color</div>
+      <div class="color-btns">
+        <button class="cbtn"
+          style="border-left: 7px solid ${product.options[1].values[0]} !important;"
+        >
+          ${product.options[1].values[0]}
+        </button>
+        <button class="cbtn"
+          style="border-left: 7px solid ${product.options[1].values[1]} !important;"
+        >
+          ${product.options[1].values[1]}
+        </button>-->
+    </div>
+    <!-- <div class="sizes">Size</div>
+    <div class="custom-dropdown">
+      <div class="selected">
+        <span class="placeholder">Choose your size</span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+      <ul class="dropdown-options">
+        <li>XS</li>
+        <li>S</li>
+        <li>M</li>
+        <li>L</li>
+      </ul>
+    </div> -->
+
+    <!-- <div class="bottom">
+      <div class="bottom-card">
+        <button
+          class="add-to-cart-btn"
+        >
+          <span>ADD TO CART</span><i class="fa-solid fa-arrow-right-long"></i>
+        </button>
+      </div>
+    </div> -->
+  </div>
+</section>
+
+{{ "custom-landing.css" | asset_url | stylesheet_tag }}
+<script src="{{ 'custom-landing.js' | asset_url }}"></script>
